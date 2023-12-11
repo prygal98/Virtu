@@ -1,0 +1,7 @@
+## Debian
+FROM alpine
+
+## Installation de gettext
+RUN apk update
+RUN apk add gettext
+

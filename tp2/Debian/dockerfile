@@ -1,0 +1,11 @@
+## Debian
+FROM debian
+
+COPY cmd.sh /
+COPY entrypoint.sh /
+
+RUN echo "RUN : "$(date) >> /tmp/date_cmd.txt
+
+CMD ./cmd.sh
+echo "CMD : "$(date) > /tmp/date_cmd.txt
+

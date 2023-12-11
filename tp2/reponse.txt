@@ -1,0 +1,28 @@
+TD2
+
+1
+
+1.1
+a) 
+git clone
+b)
+docker build -t mycontainer .
+docker run --name mycontainer -it mycontainer
+c)
+docker ps
+d)
+FROM alpine
+RUN apk update
+RUN apk add gettext
+e)
+docker container ls -s
+f)
+alpine est bien plus legere que debian
+
+1.2
+g)
+COPY serveur2.jar /app
+
+1.3
+i)
+
